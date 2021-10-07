@@ -45,6 +45,7 @@ section{
 }
 
 .container h1{
+    color: white;
     font-size: 5rem;
     margin: 0;
     transition: opacity 0.2s ease-in;
@@ -63,6 +64,10 @@ section{
     width: 30%;
     height: 50%;
     transition: transform 0.5s ease-in;
+}
+
+i{
+    color: white;
 }
 
 button{
@@ -197,6 +202,10 @@ header nav ul li:hover, header nav ul li.selected{
     font-size: 1.3rem;
     color: white;
     white-space: nowrap;
+}
+
+.team h3{
+    color: white;
 }
 
 /* Reports */
