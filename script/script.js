@@ -9,6 +9,9 @@ const headerListItems = header.children[0].children[1].children[0].children
 
 initialFadeIns()
 window.addEventListener('scroll', navbarScroll)
+window.onbeforeunload = function () {
+    window.scrollTo(0,0)
+}
 
 function initialFadeIns(){
     let initialDelay = 700
